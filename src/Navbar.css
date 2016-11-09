@@ -1,0 +1,41 @@
+.navbar {
+    width: 100%;
+    margin-bottom: 3rem;
+    vertical-align: top;
+}
+.navbar {
+    border-bottom: .1rem solid grey;
+    padding-bottom: .9rem;
+    margin-top: 2.8rem;
+}
+.navbar > div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18%;
+    width: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar > div:first-child {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    top: .6rem;
+}
+.navbar > div:nth-child(2) {
+    margin-left: 25%;
+    margin-right: 8%;
+}
+.navbar > div > a {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+
+}
+.navbar > div > a:hover {
+    color: orange;
+}
+.navbar a:first-child {
+}
