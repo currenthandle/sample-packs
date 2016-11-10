@@ -7,14 +7,12 @@ class SamplePack extends Component {
   render() {
     return (
       <div className="sample-pack">
-        <img 
-            src={this.props.imgSrc}
-            className = 'sample-pack-img' />
-        <div 
-            className='text'>
-
+        <div className='img-container'>
+            <img src={this.props.imgSrc}
+                className = 'sample-pack-img' />
+        </div>
+        <div className='text'>
             {this.props.descriptions.map((p) => <p>{p}</p>)}
-
             <audio controls preload='auto'>
                 <source src="afterhours.mp3" />
             </audio>

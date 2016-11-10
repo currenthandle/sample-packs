@@ -1,10 +1,17 @@
 .sample-pack {
     text-align: left;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
 }
-.sample-pack-img {
+.img-container {
+    display: inline-block;
     width: 40%;
     padding: 0 5% 0 5%;
-    display: inline-block;
+}
+.sample-pack-img {
+    width: 100%;
+    display: block;
+    vertical-align: middle;
 }
 .text {
     width: 40%;
