@@ -8,13 +8,12 @@ class SamplePack extends Component {
     return (
       <div className="sample-pack">
         <img 
-            className = 'sample-pack-img'
-            src='sample-pack-img.jpg' />
+            src={this.props.imgSrc}
+            className = 'sample-pack-img' />
         <div 
             className='text'>
-            <p>As Deep House, Tropical House, and Future House flood major clubs and radio charts worldwide, this sample pack comes just in time to help you catch the wave.</p>
-            <p>With a fresh supply of more than 2,400 pristine audio samples, Vengeance Essential Deep House Vol. 2 delivers the very best in drum, bassline, and percussion samples, as well as Vengeance-quality effects and live-played saxophone and guitar recordings.</p>
-            <p>All drum loops are available in three different BPMs (120, 122 and 124), and all tonal sounds, including kicks, are labeled by key.</p>
+
+            {this.props.descriptions.map((p) => <p>{p}</p>)}
 
             <audio controls preload='auto'>
                 <source src="afterhours.mp3" />

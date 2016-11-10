@@ -10,9 +10,10 @@ ReactDOM.render(
     <div>
         <Header />
         { packs.map((samplePack, i) => <SamplePack 
-            key={i} 
-            imgUrl={samplePack.imgUrl} 
-            descriptions = {samplePack.description} /> )}
+            key={i}
+            imgSrc={samplePack.imgSrc} 
+            descriptions = {samplePack.description} /> 
+        )}
     
     </div>,
     document.getElementById('root')
