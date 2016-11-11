@@ -10,7 +10,7 @@ import packs from '../data/packs';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div >
         <Header />
         {this.props.children}
       </div>
