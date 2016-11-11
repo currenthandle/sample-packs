@@ -12,9 +12,9 @@ import './css/index.css';
 render((
     <Router history={hashHistory}>
         <Route path='/' component={App} >
+            <IndexRoute path='about' component={About} />
             <Route path='packs' component={Packs} />
             <Route path='support' component={Contact} />
-            <Route path='about' component={About} />
         </Route>
     </Router>
 ), document.getElementById('root'));
