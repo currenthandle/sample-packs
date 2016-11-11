@@ -6,12 +6,14 @@ import App from './App';
 //import Home from './Home';
 import Packs from './Packs';
 import About from './About';
+import Contact from './Contact';
 import './css/index.css';
 
 render((
     <Router history={hashHistory}>
         <Route path='/' component={App} >
             <Route path='packs' component={Packs} />
+            <Route path='support' component={Contact} />
             <Route path='about' component={About} />
         </Route>
     </Router>
