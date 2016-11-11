@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './css/App.css';
-import './css/SamplePack.css';
+//import logo from './logo.svg';
+//import './App.css';
+//import './SamplePack.css';
+import SamplePack from './SamplePack';
+import packs from '../data/packs';
 
-class Pack extends Component {
+class Packs extends Component {
   render() {
     return (
-      <div className="packs">
-      </div>
+        <div>
+            { packs.map((samplePack, i) => <SamplePack
+                key={i}
+                imgSrc={samplePack.imgSrc}
+                descriptions = {samplePack.description} />
+            )}
+
+        </div>
     );
   }
 }
 
-export default Pack;
+export default Packs;

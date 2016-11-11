@@ -4,8 +4,6 @@ import './css/App.css';
 import './css/index.css';
 
 import Header from './Header';
-import SamplePack from './SamplePack';
-import packs from '../data/packs';
 
 class App extends Component {
   render() {
