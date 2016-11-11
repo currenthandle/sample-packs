@@ -6,8 +6,8 @@ import './css/Contact.css';
 class Contact extends Component {
   render() {
     return (
-        <div>
-            <p>Created by leading German minimal house artists including Pascal Feos, Andreas Mugge, Gabriel Le Mar and Frank Leichner, this pack has 750 oneshots (drums, fx, synths) and more than 1350 elaborate Minimal / House loops. Drum loops, construction kits, fx loops, synth loops, a real TB303, sub bass / percussion loops. If you are into cool, grown-up EDM music, you cant afford to miss this! Producers of commercial EDM will love these fresh, unique sounds.</p>
+        <div className='contact'>
+            <p>As a special bonus, we included colorful vocal shouts to help punch up your builds and drops.</p>
             <form
                 className='contact-form'
             >
