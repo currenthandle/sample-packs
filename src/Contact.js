@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
         <div className='contact'>
-            <p>As a special bonus, we included colorful vocal shouts to help punch up your builds and drops.</p>
+            <p className='contact-text'>As a special bonus, we included colorful vocal shouts to help punch up your builds and drops.</p>
             <form
                 className='contact-form'
             >
