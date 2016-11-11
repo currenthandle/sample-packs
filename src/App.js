@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './index.css';
 
 import Header from './Header';
 import SamplePack from './SamplePack';
@@ -11,11 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        { packs.map((samplePack, i) => <SamplePack 
-            key={i}
-            imgSrc={samplePack.imgSrc} 
-            descriptions = {samplePack.description} /> 
-        )}
         {this.props.children}
       </div>
     );

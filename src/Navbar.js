@@ -4,17 +4,18 @@ import React, { Component } from 'react';
 //import './SamplePack.css';
 //import Navbar from './Navbar';
 import './Navbar.css';
+import { Link, IndexLink } from 'react-router'; 
 
 class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div><a href='/'>
+        <div><IndexLink to='/'>
             <img src='vengeance_logo.png' />
-        </a></div>
-        <div><a href='/packs'>Sample Packs</a></div>
-        <div><a href='/support'>Support</a></div>
-        <div><a href='/testimonials'>Testimonials</a></div>
+        </IndexLink></div>
+        <div><Link to='packs'>Sample Packs</Link></div>
+        <div><Link to='support'>Support</Link></div>
+        <div><Link to='testimonials'>Testimonials</Link></div>
         
       </nav>
     );

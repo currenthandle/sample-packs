@@ -6,11 +6,10 @@ import Header from './Header';
 import SamplePack from './SamplePack';
 import packs from '../data/packs';
 
-class Home extends Component {
+class Packs extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
+      <div className="App Packs">
         { packs.map((samplePack, i) => <SamplePack 
             key={i}
             imgSrc={samplePack.imgSrc} 
@@ -21,4 +20,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Packs;
