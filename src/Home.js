@@ -6,7 +6,7 @@ import Header from './Header';
 import SamplePack from './SamplePack';
 import packs from '../data/packs';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
@@ -16,10 +16,9 @@ class App extends Component {
             imgSrc={samplePack.imgSrc} 
             descriptions = {samplePack.description} /> 
         )}
-        {this.props.children}
       </div>
     );
   }
 }
 
-export default App;
+export default Home;
