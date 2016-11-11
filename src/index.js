@@ -6,7 +6,7 @@ import App from './App';
 //import Home from './Home';
 import Packs from './Packs';
 import About from './About';
-import './index.css';
+import './css/index.css';
 
 render((
     <Router history={hashHistory}>

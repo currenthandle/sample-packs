@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 //import './App.css';
 //import './SamplePack.css';
 //import Navbar from './Navbar';
-import './Navbar.css';
+import './css/Navbar.css';
 import { Link, IndexLink } from 'react-router'; 
 
 class Navbar extends Component {
