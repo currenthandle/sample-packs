@@ -17,5 +17,13 @@ module.exports = [
             'As a special bonus, we included colorful vocal shouts to help punch up your builds and drops.',
             'This one is an absolute must-have for any serious EDM producer!'
         ]
+    },
+    {
+        imgSrc: 'pack3.jpg',
+        description: [
+            'Vengeance Freakz On Beatz is back with more than 2,100 awesome minimal samples, an incredible source of sounds and inspiration!',
+            "Created by leading German minimal house artists including Pascal Feos, Andreas Mugge, Gabriel Le Mar and Frank Leichner, this pack has 750 oneshots (drums, fx, synths) and more than 1350 elaborate Minimal / House loops. Drum loops, construction kits, fx loops, synth loops, a real TB303, sub bass / percussion loops. If you are into cool, grown-up EDM music, you can't afford to miss this! Producers of commercial EDM will love these fresh, unique sounds."
+
+        ]
     }
 ]

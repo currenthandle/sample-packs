@@ -1,7 +1,11 @@
 .sample-pack {
     text-align: left;
     padding-bottom: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: .1rem black solid;
+}
+.sample-pack:last-child {
+    border-bottom: none;
 }
 .img-container {
     display: inline-block;
