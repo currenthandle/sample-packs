@@ -4,6 +4,7 @@ import './css/App.css';
 import './css/index.css';
 
 import Header from './Header';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div >
         <Header />
         {this.props.children}
+        <Footer />
       </div>
     );
   }
